@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    background-color:#d98555 ;
+    color: #131d26;
+    font-family: lato, sans serif ;
+    font-size: 30px ;
+}
+@media all and (max-width: 140px) {
+    header .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero{
+        height: 346px;
+    }
+    .imageArticle{
+        padding: 40px 20px;
+    }
+}
+@media all and (max-width:744px) {
+    header ul{
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero{
+        height: 240px;
+    }
+    .hero h1{
+        margin: auto;
+        text-align: center;
+        font-size: 23px;
+    }
+    .imageArticle{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .imageArticle .content {
+        width: 100%;
+    }
+    .imageArticle img {
+        width: 100%;
+        height: 300px;
+    }
+}
+header, footer{
+    background-color: #59331D ;
+    color: white;
+    font-family: oswald, sans serif
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.logo{
+    height: 150px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header li a{
+    display: block;
+    padding: 10px 18px;
+    color: white;
+    text-decoration: none;
+}
+header li a.selected{
+    background-color: #d98555;
+}
+.hero{
+    height: 400px;
+    background-image: url(https://assets.codepen.io/6306176/gulp-coffee-beans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.heroContent{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+.hero h1{
+    margin: 0;
+    box-sizing: border-box;
+    width: 700px;
+    color: #f2f2f2;
+    border: 2px solid white ;
+    background-color: #131d26 ;
+    padding: 10px ;
+    text-align: center ;
+    font-family: poppins, sans serif ;
+    font-size: 30px ;
+}
+h2{
+  color: white ;
+  font-family: poppins, sans serif ;
+  height: 75px ;
+  text-decoration: underline ;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.imageArticle{
+    max-width: 1400px;
+    padding: 100px 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imageArticle .content{
+    width: 50%;
+}
+.imageArticle img{
+    width: 30%;
+    height: 600px;
+    object-fit: cover;
+}
+a{
+    color: #59331D;
+    text-decoration: none;
+}
+.btnPrimary{
+    display: inline-block;
+    background-color: #131d26;
+    padding: 10px 18px;
+    color: white;
+    text-decoration: none;
+}
+.media img{
+    height: 32px;
+}
